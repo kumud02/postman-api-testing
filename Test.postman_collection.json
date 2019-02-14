@@ -1,0 +1,357 @@
+{
+	"info": {
+		"_postman_id": "45ba50ab-250b-45cd-92d1-f0a32af2bef9",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://www.mocky.io/v2/5c624d673000004f00019647",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "65337d47-8053-4591-9641-32087b08e4eb",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c624d673000004f00019647",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c624d673000004f00019647"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.mocky.io/v2/5c624d673000004f00019647",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "930ea3a6-e1e4-4c72-81fe-695ae8a30d1c",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c624d673000004f00019647",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c624d673000004f00019647"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.mocky.io/v2/5c624d673000004f00019647",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ce3e1d84-eade-4f14-9835-6f3975cf6bea",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c624d673000004f00019647",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c624d673000004f00019647"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.mocky.io/v2/5c62575f3000006000019696",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8822668e-5091-4b67-8e07-b77ea8c75684",
+						"exec": [
+							"let response = pm.response.json();",
+							"let commentStatus=response.prefs.comment.status",
+							"pm.test(\"Comment status is disable\", function() {",
+							"    pm.expect(commentStatus).to.eql(\"disable\");",
+							"});",
+							"console.log(response.prefs.comment.status)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c62575f3000006000019696",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c62575f3000006000019696"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.mocky.io/v2/5c62575f3000006000019696",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2362b7f3-11a2-440b-a59f-66efa7b94807",
+						"exec": [
+							"let response = pm.response.json();",
+							"pm.test(\"Comment status is disable\", function() {",
+							"    pm.expect(response.prefs.comment.status).to.eql(\"disable\");",
+							"});",
+							"console.log(response.prefs.comment.status)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c62575f3000006000019696",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c62575f3000006000019696"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.mocky.io/v2/5c624d343000004a00019646",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c624d343000004a00019646",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c624d343000004a00019646"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.mocky.io/v2/5c624d343000004a00019646",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c624d343000004a00019646",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c624d343000004a00019646"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.mocky.io/v2/5c62575f3000006000019696",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7f5d6c74-763f-45cd-b752-553e1eccf340",
+						"exec": [
+							"let response = pm.response.json();",
+							"let commentStatus=response.prefs.comment.status",
+							"pm.test(\"Comment status is disable\", function() {",
+							"    pm.expect(commentStatus).to.eql(\"disable\");",
+							"});",
+							"console.log(response.prefs.comment.status)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.mocky.io/v2/5c62575f3000006000019696",
+					"protocol": "http",
+					"host": [
+						"www",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v2",
+						"5c62575f3000006000019696"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API and Postman",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.getpostman.com/collections/45ba50ab-250b-45cd-92d1-f0a32af2bef9?apikey=77c815d4b8c54458a9f7c6e96e3d530b",
+					"protocol": "https",
+					"host": [
+						"api",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"45ba50ab-250b-45cd-92d1-f0a32af2bef9"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "77c815d4b8c54458a9f7c6e96e3d530b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "production",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/get?isGood=true&isBad=false",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "isGood",
+							"value": "true"
+						},
+						{
+							"key": "isBad",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
